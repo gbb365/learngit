@@ -4,16 +4,16 @@
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/KivenCkl/LeetCode_Helper/master/imgs/leetcode-logo.png"></p>
 <p align="center">
     <img src="https://img.shields.io/badge/用户-gong-bo-bai-hd-BDZ3rMpg0a-blue.svg?" alt="">
-    <img src="https://img.shields.io/badge/已解决-28/1763-blue.svg?" alt="">
+    <img src="https://img.shields.io/badge/已解决-29/1763-blue.svg?" alt="">
     <img src="https://img.shields.io/badge/简单-22-green.svg?" alt="">
-    <img src="https://img.shields.io/badge/中等-6-orange.svg?" alt="">
+    <img src="https://img.shields.io/badge/中等-7-orange.svg?" alt="">
     <img src="https://img.shields.io/badge/困难-0-red.svg?" alt="">
 </p>
 <h1 align="center">LeetCode 的解答</h1>
 
 <p align="center">
     <br>
-    <b>最近一次更新: 2020-08-24 20:08:29</b>
+    <b>最近一次更新: 2020-08-24 21:22:41</b>
     <br>
 </p>
 
@@ -27,7 +27,7 @@
 |剑指 Offer 22|[链表中倒数第k个节点](Problemset/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/README.md)|[Java](Problemset/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.java)|79.0%|简单|[链表](https://leetcode-cn.com/tag/linked-list)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)|
 |剑指 Offer 06|[从尾到头打印链表](Problemset/cong-wei-dao-tou-da-yin-lian-biao-lcof/README.md)|[Java](Problemset/cong-wei-dao-tou-da-yin-lian-biao-lcof/cong-wei-dao-tou-da-yin-lian-biao-lcof.java)|75.8%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
 |面试题 02.05|[链表求和](Problemset/sum-lists-lcci/README.md)|[Java](Problemset/sum-lists-lcci/sum-lists-lcci.java)|45.8%|中等|[链表](https://leetcode-cn.com/tag/linked-list)<br>[数学](https://leetcode-cn.com/tag/math)|
-|面试题 02.03|[删除中间节点](Problemset/delete-middle-node-lcci/README.md)|[Java](Problemset/delete-middle-node-lcci/delete-middle-node-lcci.java)|84.9%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
+|面试题 02.03|[删除中间节点](Problemset/delete-middle-node-lcci/README.md)|[Java](Problemset/delete-middle-node-lcci/delete-middle-node-lcci.java)|85.0%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
 |面试题 02.08|[环路检测](Problemset/linked-list-cycle-lcci/README.md)|[Java](Problemset/linked-list-cycle-lcci/linked-list-cycle-lcci.java)|50.0%|中等|[链表](https://leetcode-cn.com/tag/linked-list)|
 |面试题 02.07|[链表相交](Problemset/intersection-of-two-linked-lists-lcci/README.md)|[Java](Problemset/intersection-of-two-linked-lists-lcci/intersection-of-two-linked-lists-lcci.java)|68.2%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
 |面试题 02.06|[回文链表](Problemset/palindrome-linked-list-lcci/README.md)|[Java](Problemset/palindrome-linked-list-lcci/palindrome-linked-list-lcci.java)|46.7%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
@@ -41,6 +41,7 @@
 |206|[反转链表](Problemset/reverse-linked-list/README.md)|[Java](Problemset/reverse-linked-list/reverse-linked-list.java)<br>[Python](Problemset/reverse-linked-list/reverse-linked-list.py)|70.3%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
 |203|[移除链表元素](Problemset/remove-linked-list-elements/README.md)|[Java](Problemset/remove-linked-list-elements/remove-linked-list-elements.java)<br>[Python](Problemset/remove-linked-list-elements/remove-linked-list-elements.py)|46.2%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
 |160|[相交链表](Problemset/intersection-of-two-linked-lists/README.md)|[Java](Problemset/intersection-of-two-linked-lists/intersection-of-two-linked-lists.java)|56.2%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
+|147|[对链表进行插入排序](Problemset/insertion-sort-list/README.md)|[Python3](Problemset/insertion-sort-list/insertion-sort-list.py)|65.1%|中等|[排序](https://leetcode-cn.com/tag/sort)<br>[链表](https://leetcode-cn.com/tag/linked-list)|
 |142|[环形链表 II](Problemset/linked-list-cycle-ii/README.md)|[Java](Problemset/linked-list-cycle-ii/linked-list-cycle-ii.java)|51.5%|中等|[链表](https://leetcode-cn.com/tag/linked-list)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)|
 |141|[环形链表](Problemset/linked-list-cycle/README.md)|[Java](Problemset/linked-list-cycle/linked-list-cycle.java)<br>[Python](Problemset/linked-list-cycle/linked-list-cycle.py)|49.1%|简单|[链表](https://leetcode-cn.com/tag/linked-list)<br>[双指针](https://leetcode-cn.com/tag/two-pointers)|
 |83|[删除排序链表中的重复元素](Problemset/remove-duplicates-from-sorted-list/README.md)|[Java](Problemset/remove-duplicates-from-sorted-list/remove-duplicates-from-sorted-list.java)<br>[Python](Problemset/remove-duplicates-from-sorted-list/remove-duplicates-from-sorted-list.py)<br>[Python3](Problemset/remove-duplicates-from-sorted-list/remove-duplicates-from-sorted-list.py)|51.3%|简单|[链表](https://leetcode-cn.com/tag/linked-list)|
