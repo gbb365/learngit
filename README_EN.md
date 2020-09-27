@@ -4,16 +4,16 @@
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/KivenCkl/LeetCode_Helper/master/imgs/leetcode-logo.png"></p>
 <p align="center">
     <img src="https://img.shields.io/badge/User-gong-bo-bai-hd-BDZ3rMpg0a-blue.svg?" alt="">
-    <img src="https://img.shields.io/badge/Solved-51/1808-blue.svg?" alt="">
+    <img src="https://img.shields.io/badge/Solved-53/1808-blue.svg?" alt="">
     <img src="https://img.shields.io/badge/Easy-37-green.svg?" alt="">
-    <img src="https://img.shields.io/badge/Medium-14-orange.svg?" alt="">
+    <img src="https://img.shields.io/badge/Medium-16-orange.svg?" alt="">
     <img src="https://img.shields.io/badge/Hard-0-red.svg?" alt="">
 </p>
 <h1 align="center">My LeetCode Solutions</h1>
 
 <p align="center">
     <br>
-    <b>Last updated: 2020-09-26 16:15:50</b>
+    <b>Last updated: 2020-09-27 11:19:29</b>
     <br>
 </p>
 <!--请保留下面这行信息，让更多用户了解到这个小爬虫，衷心感谢您的支持-->
@@ -22,25 +22,26 @@
 | # | Title | Solutions | Acceptance | Difficulty | Tags |
 |:--:|:-----|:---------:|:----:|:----:|:----:|
 |面试题 02.02|[Kth Node From End of List LCCI](Problemset/kth-node-from-end-of-list-lcci/README_EN.md)|[Java](Problemset/kth-node-from-end-of-list-lcci/kth-node-from-end-of-list-lcci.java)|78.8%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)<br>[Two Pointers](https://leetcode-cn.com/tag/two-pointers)|
+|剑指 Offer 59 - II|[队列的最大值 LCOF](Problemset/dui-lie-de-zui-da-zhi-lcof/README_EN.md)|[Java](Problemset/dui-lie-de-zui-da-zhi-lcof/dui-lie-de-zui-da-zhi-lcof.java)|47.6%|medium|[Stack](https://leetcode-cn.com/tag/stack)<br>[Sliding Window](https://leetcode-cn.com/tag/sliding-window)|
 |剑指 Offer 52|[两个链表的第一个公共节点  LCOF](Problemset/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/README_EN.md)|[Java](Problemset/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof.java)|62.8%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |剑指 Offer 30|[包含min函数的栈 LCOF](Problemset/bao-han-minhan-shu-de-zhan-lcof/README_EN.md)|[Java](Problemset/bao-han-minhan-shu-de-zhan-lcof/bao-han-minhan-shu-de-zhan-lcof.java)|57.2%|easy|[Stack](https://leetcode-cn.com/tag/stack)<br>[Design](https://leetcode-cn.com/tag/design)|
 |剑指 Offer 18|[删除链表的节点 LCOF](Problemset/shan-chu-lian-biao-de-jie-dian-lcof/README_EN.md)|[Java](Problemset/shan-chu-lian-biao-de-jie-dian-lcof/shan-chu-lian-biao-de-jie-dian-lcof.java)|58.9%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |剑指 Offer 24|[反转链表 LCOF](Problemset/fan-zhuan-lian-biao-lcof/README_EN.md)|[Java](Problemset/fan-zhuan-lian-biao-lcof/fan-zhuan-lian-biao-lcof.java)|74.6%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |剑指 Offer 22|[链表中倒数第k个节点 LCOF](Problemset/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/README_EN.md)|[Java](Problemset/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.java)|78.8%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)<br>[Two Pointers](https://leetcode-cn.com/tag/two-pointers)|
 |剑指 Offer 06|[从尾到头打印链表 LCOF](Problemset/cong-wei-dao-tou-da-yin-lian-biao-lcof/README_EN.md)|[Java](Problemset/cong-wei-dao-tou-da-yin-lian-biao-lcof/cong-wei-dao-tou-da-yin-lian-biao-lcof.java)|75.5%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)|
-|剑指 Offer 09|[用两个栈实现队列 LCOF](Problemset/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/README_EN.md)|[Java](Problemset/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.java)|72.9%|easy|[Stack](https://leetcode-cn.com/tag/stack)<br>[Design](https://leetcode-cn.com/tag/design)|
+|剑指 Offer 09|[用两个栈实现队列 LCOF](Problemset/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/README_EN.md)|[Java](Problemset/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.java)|72.8%|easy|[Stack](https://leetcode-cn.com/tag/stack)<br>[Design](https://leetcode-cn.com/tag/design)|
 |面试题 02.05|[Sum Lists LCCI](Problemset/sum-lists-lcci/README_EN.md)|[Java](Problemset/sum-lists-lcci/sum-lists-lcci.java)|45.4%|medium|[Linked List](https://leetcode-cn.com/tag/linked-list)<br>[Math](https://leetcode-cn.com/tag/math)|
 |面试题 02.03|[Delete Middle Node LCCI](Problemset/delete-middle-node-lcci/README_EN.md)|[Java](Problemset/delete-middle-node-lcci/delete-middle-node-lcci.java)|84.9%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |面试题 03.04|[Implement Queue using Stacks LCCI](Problemset/implement-queue-using-stacks-lcci/README_EN.md)|[Java](Problemset/implement-queue-using-stacks-lcci/implement-queue-using-stacks-lcci.java)|70.9%|easy|[Stack](https://leetcode-cn.com/tag/stack)|
 |面试题 03.02|[Min Stack LCCI](Problemset/min-stack-lcci/README_EN.md)|[Java](Problemset/min-stack-lcci/min-stack-lcci.java)|60.3%|easy|[Stack](https://leetcode-cn.com/tag/stack)|
 |面试题 02.08|[Linked List Cycle LCCI](Problemset/linked-list-cycle-lcci/README_EN.md)|[Java](Problemset/linked-list-cycle-lcci/linked-list-cycle-lcci.java)|49.9%|medium|[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |面试题 02.07|[Intersection of Two Linked Lists LCCI](Problemset/intersection-of-two-linked-lists-lcci/README_EN.md)|[Java](Problemset/intersection-of-two-linked-lists-lcci/intersection-of-two-linked-lists-lcci.java)|68.0%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)|
-|面试题 02.06|[Palindrome Linked List LCCI](Problemset/palindrome-linked-list-lcci/README_EN.md)|[Java](Problemset/palindrome-linked-list-lcci/palindrome-linked-list-lcci.java)|46.7%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)|
+|面试题 02.06|[Palindrome Linked List LCCI](Problemset/palindrome-linked-list-lcci/README_EN.md)|[Java](Problemset/palindrome-linked-list-lcci/palindrome-linked-list-lcci.java)|46.8%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |面试题 02.01|[Remove Duplicate Node LCCI](Problemset/remove-duplicate-node-lcci/README_EN.md)|[Java](Problemset/remove-duplicate-node-lcci/remove-duplicate-node-lcci.java)|69.6%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |1480|[Running Sum of 1d Array](Problemset/running-sum-of-1d-array/README_EN.md)|[Java](Problemset/running-sum-of-1d-array/running-sum-of-1d-array.java)|86.8%|easy|[Array](https://leetcode-cn.com/tag/array)|
 |1290|[Convert Binary Number in a Linked List to Integer](Problemset/convert-binary-number-in-a-linked-list-to-integer/README_EN.md)|[Java](Problemset/convert-binary-number-in-a-linked-list-to-integer/convert-binary-number-in-a-linked-list-to-integer.java)|80.9%|easy|[Bit Manipulation](https://leetcode-cn.com/tag/bit-manipulation)<br>[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |876|[Middle of the Linked List](Problemset/middle-of-the-linked-list/README_EN.md)|[Java](Problemset/middle-of-the-linked-list/middle-of-the-linked-list.java)<br>[Python](Problemset/middle-of-the-linked-list/middle-of-the-linked-list.py)|69.4%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)|
-|744|[Find Smallest Letter Greater Than Target](Problemset/find-smallest-letter-greater-than-target/README_EN.md)|[Java](Problemset/find-smallest-letter-greater-than-target/find-smallest-letter-greater-than-target.java)|45.2%|easy|[Binary Search](https://leetcode-cn.com/tag/binary-search)|
+|744|[Find Smallest Letter Greater Than Target](Problemset/find-smallest-letter-greater-than-target/README_EN.md)|[Java](Problemset/find-smallest-letter-greater-than-target/find-smallest-letter-greater-than-target.java)|45.3%|easy|[Binary Search](https://leetcode-cn.com/tag/binary-search)|
 |633|[Sum of Square Numbers](Problemset/sum-of-square-numbers/README_EN.md)|[Java](Problemset/sum-of-square-numbers/sum-of-square-numbers.java)|33.9%|medium|[Math](https://leetcode-cn.com/tag/math)|
 |524|[Longest Word in Dictionary through Deleting](Problemset/longest-word-in-dictionary-through-deleting/README_EN.md)|[Java](Problemset/longest-word-in-dictionary-through-deleting/longest-word-in-dictionary-through-deleting.java)|46.4%|medium|[Sort](https://leetcode-cn.com/tag/sort)<br>[Two Pointers](https://leetcode-cn.com/tag/two-pointers)|
 |445|[Add Two Numbers II](Problemset/add-two-numbers-ii/README_EN.md)|[Java](Problemset/add-two-numbers-ii/add-two-numbers-ii.java)|58.2%|medium|[Linked List](https://leetcode-cn.com/tag/linked-list)|
@@ -53,6 +54,7 @@
 |203|[Remove Linked List Elements](Problemset/remove-linked-list-elements/README_EN.md)|[Java](Problemset/remove-linked-list-elements/remove-linked-list-elements.java)<br>[Python](Problemset/remove-linked-list-elements/remove-linked-list-elements.py)|46.4%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |160|[Intersection of Two Linked Lists](Problemset/intersection-of-two-linked-lists/README_EN.md)|[Java](Problemset/intersection-of-two-linked-lists/intersection-of-two-linked-lists.java)|56.6%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |155|[Min Stack](Problemset/min-stack/README_EN.md)|[Java](Problemset/min-stack/min-stack.java)|55.3%|easy|[Stack](https://leetcode-cn.com/tag/stack)<br>[Design](https://leetcode-cn.com/tag/design)|
+|148|[Sort List](Problemset/sort-list/README_EN.md)|[Java](Problemset/sort-list/sort-list.java)|67.0%|medium|[Sort](https://leetcode-cn.com/tag/sort)<br>[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |147|[Insertion Sort List](Problemset/insertion-sort-list/README_EN.md)|[Python3](Problemset/insertion-sort-list/insertion-sort-list.py)|65.3%|medium|[Sort](https://leetcode-cn.com/tag/sort)<br>[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |144|[Binary Tree Preorder Traversal](Problemset/binary-tree-preorder-traversal/README_EN.md)|[Java](Problemset/binary-tree-preorder-traversal/binary-tree-preorder-traversal.java)|66.9%|medium|[Stack](https://leetcode-cn.com/tag/stack)<br>[Tree](https://leetcode-cn.com/tag/tree)|
 |142|[Linked List Cycle II](Problemset/linked-list-cycle-ii/README_EN.md)|[Java](Problemset/linked-list-cycle-ii/linked-list-cycle-ii.java)|51.9%|medium|[Linked List](https://leetcode-cn.com/tag/linked-list)<br>[Two Pointers](https://leetcode-cn.com/tag/two-pointers)|
@@ -64,7 +66,7 @@
 |69|[Sqrt(x)](Problemset/sqrtx/README_EN.md)|[Java](Problemset/sqrtx/sqrtx.java)|38.9%|easy|[Math](https://leetcode-cn.com/tag/math)<br>[Binary Search](https://leetcode-cn.com/tag/binary-search)|
 |24|[Swap Nodes in Pairs](Problemset/swap-nodes-in-pairs/README_EN.md)|[Java](Problemset/swap-nodes-in-pairs/swap-nodes-in-pairs.java)|66.8%|medium|[Linked List](https://leetcode-cn.com/tag/linked-list)|
 |21|[Merge Two Sorted Lists](Problemset/merge-two-sorted-lists/README_EN.md)|[Java](Problemset/merge-two-sorted-lists/merge-two-sorted-lists.java)<br>[Python](Problemset/merge-two-sorted-lists/merge-two-sorted-lists.py)|64.4%|easy|[Linked List](https://leetcode-cn.com/tag/linked-list)|
-|20|[Valid Parentheses](Problemset/valid-parentheses/README_EN.md)|[Java](Problemset/valid-parentheses/valid-parentheses.java)|43.0%|easy|[Stack](https://leetcode-cn.com/tag/stack)<br>[String](https://leetcode-cn.com/tag/string)|
+|20|[Valid Parentheses](Problemset/valid-parentheses/README_EN.md)|[Java](Problemset/valid-parentheses/valid-parentheses.java)|43.1%|easy|[Stack](https://leetcode-cn.com/tag/stack)<br>[String](https://leetcode-cn.com/tag/string)|
 |19|[Remove Nth Node From End of List](Problemset/remove-nth-node-from-end-of-list/README_EN.md)|[Java](Problemset/remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.java)<br>[Python](Problemset/remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.py)|39.5%|medium|[Linked List](https://leetcode-cn.com/tag/linked-list)<br>[Two Pointers](https://leetcode-cn.com/tag/two-pointers)|
 |13|[Roman to Integer](Problemset/roman-to-integer/README_EN.md)|[Java](Problemset/roman-to-integer/roman-to-integer.java)|62.1%|easy|[Math](https://leetcode-cn.com/tag/math)<br>[String](https://leetcode-cn.com/tag/string)|
 |9|[Palindrome Number](Problemset/palindrome-number/README_EN.md)|[Java](Problemset/palindrome-number/palindrome-number.java)|58.5%|easy|[Math](https://leetcode-cn.com/tag/math)|
