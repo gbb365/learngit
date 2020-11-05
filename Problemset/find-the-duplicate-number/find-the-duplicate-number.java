@@ -1,9 +1,9 @@
 
 // @Title: 寻找重复数 (Find the Duplicate Number)
 // @Author: 15218859676
-// @Date: 2020-10-23 16:33:05
+// @Date: 2020-11-04 11:56:11
 // @Runtime: 3 ms
-// @Memory: 38.4 MB
+// @Memory: 38.3 MB
 
 class Solution {
     public int findDuplicate(int[] nums) {
@@ -20,29 +20,31 @@ class Solution {
             mid = (1 + 3) / 2 = 2 arr小于等于的2有3个(1,2,2)，1到2中肯定有重复的值
             mid = (1 + 2) / 2 = 1 arr小于等于的1有1个(1)，2到2中肯定有重复的值
             所以重复的数是 2 
+            // 根据抽屉原理，小于 等于4 的数的个数如果严格大于 4 个，
+            // 此时重复元素一定出现在 [1, 4] 区间里 
+            // 根据抽屉原理，严格小于 4 的数的个数如果大于等于 4 个，
+            // 此时重复元素一定出现在 [1, 3] 区间里
 
         */
         int len = nums.length;
-        int left = 1;
-        int right = len-1;
+        //数值在[1,n],一共由n+1个数
+        int left = 1; 
+        int right = len -1;
+        
         while(left<right){
-            int cnt = 0 ;
-            int mid = left+(right-left)/2;
-            for(int i = 0; i < nums.length ;i++){
-               
+            //注意这里的mid指的是数值，不是下标或索引。
+            int mid = (left+right)/2;
+            int cnt = 0;
+            //每次都统计数组中有多少个比中间数小的，找到重复的数出现的范围
+            for(int i = 0 ; i < nums.length; i++){
                 if(nums[i]<=mid){
-                    cnt++;
+                    cnt+=1;
                 }
-                // 根据抽屉原理，小于 等于4 的数的个数如果严格大于 4 个，
-                // 此时重复元素一定出现在 [1, 4] 区间里 
-
-                // 根据抽屉原理，严格小于 4 的数的个数如果大于等于 4 个，
-                // 此时重复元素一定出现在 [1, 3] 区间里
-
-            }if(cnt>mid){//count比mid大，说明重复的肯定在【left，mid】
+            }
+            if(cnt > mid){
                 right = mid;
-            }else {//重复的在【mid+1，right】
-                left = mid+1;
+            }else{
+                left = mid + 1;
             }
         }
         return left;
