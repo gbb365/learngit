@@ -1,9 +1,9 @@
 
 // @Title: 二叉树的最大深度 (Maximum Depth of Binary Tree)
 // @Author: 15218859676
-// @Date: 2020-10-20 20:47:04
+// @Date: 2020-11-08 21:56:48
 // @Runtime: 1 ms
-// @Memory: 38 MB
+// @Memory: 38.4 MB
 
 /**
  * Definition for a binary tree node.
@@ -23,7 +23,7 @@ class Solution {
         // if(root == null){
         //     return 0;
         // }
-        // int res = Math.max(maxDepth(root.left)+1,maxDepth(root.right)+1);
+        // int res = Math(maxDepth(root.left,root.right))+1;
         // return res;
         /**
             迭代法：广度优先，参考官方解法
@@ -39,11 +39,13 @@ class Solution {
         while(!queue.isEmpty()){
             int size = queue.size();
             while(size>0){
+                //弹出某一层的所有元素，并加入他们的左右孩子
                 TreeNode node = queue.poll();
                 if(node.left != null) queue.offer(node.left);
                 if(node.right != null) queue.offer(node.right);
                 size--;
             }
+            //一层的全部出队在记一次数
             ans++;
         }
         return ans;

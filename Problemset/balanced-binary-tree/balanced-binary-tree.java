@@ -1,9 +1,9 @@
 
 // @Title: 平衡二叉树 (Balanced Binary Tree)
 // @Author: 15218859676
-// @Date: 2020-10-26 16:30:09
+// @Date: 2020-11-08 21:41:01
 // @Runtime: 1 ms
-// @Memory: 38.4 MB
+// @Memory: 38.5 MB
 
 /**
  * Definition for a binary tree node.
@@ -22,7 +22,29 @@
  */
 class Solution {
     private boolean result = true;
+    public int helper(TreeNode node){
+        //递归出口
+        if(node == null){
+            return 0;
+        }
+        int left = helper(node.left);
+        int right = helper(node.right);
+        if(left == -1 || right == -1 || Math.abs(left - right)>1){
+            //出现了不平衡，直接往上返回
+            return -1;
+        }
+        return Math.max(left,right)+1;
+    }
     public boolean isBalanced(TreeNode root) {
+        /**
+            方法3.用后续遍历的方法。严格按照定义，如果树中有不平衡的子树，
+            那么整个树一定是不平衡的，逐级返回
+        */
+        if(root == null){
+            return true;
+        }
+        return helper(root) != -1;
+        
     /**
         /**
             判断是否是平衡树(每个子树的高度差的绝对值不超过1)
@@ -51,21 +73,22 @@ class Solution {
     }
     */
     //方法2.自底向上,访问一个节点的时候先递归判断其左右子树是否是平衡的.
-    height(root);
-    return result;
+    // height(root);
+    // return result;
 
     }
-    public int height(TreeNode node){
-        if(node == null){
-            return 0;
-        }
-        //每次先递归去判断该节点的左右子树是否是平衡的,如果不平衡了可以把标记设置为false
-        int left = height(node.left);
-        int right = height(node.right);
-        if(Math.abs(left-right)>1){
-            result = false;
-        }
-        return Math.max(left,right)+1;
-    }
+    //方法2.自底向上
+    // public int height(TreeNode node){
+    //     if(node == null){
+    //         return 0;
+    //     }
+    //     //每次先递归去判断该节点的左右子树是否是平衡的,如果不平衡了可以把标记设置为false
+    //     int left = height(node.left);
+    //     int right = height(node.right);
+    //     if(Math.abs(left-right)>1){
+    //         result = false;
+    //     }
+    //     return Math.max(left,right)+1;
+    // }
     
 }
