@@ -1,59 +1,83 @@
 
 // @Title: 数组中的第K个最大元素 (Kth Largest Element in an Array)
 // @Author: 15218859676
-// @Date: 2020-10-22 17:09:43
-// @Runtime: 9 ms
-// @Memory: 38.4 MB
+// @Date: 2020-11-28 22:51:56
+// @Runtime: 6 ms
+// @Memory: 38.9 MB
 
-
-      /**
-       * solution
-       */
-      class Solution {
+class Solution {
+    private static Random random = new Random(System.currentTimeMillis());
     public int findKthLargest(int[] nums, int k) {
+        //快排实现
+        int len = nums.length;
         int left = 0;
-        int right = nums.length - 1;
-        int target = nums.length - k;
+        int right = len - 1;
+        int target = len - k;
         while(true){
-            int index = partation(nums,left,right);
-            if(index == target){
+            int index = partition2(nums, left, right);
+            if(target == index){
                 return nums[index];
             }else if(index > target){
                 right = index - 1;
             }else {
-                left = index+1;
+                left = index + 1;
             }
         }
-    }
 
-          /**
-           *
-           * @param nums
-           * @param left
-           * @param right
-           * @return
-           */
-    private int partation(int[] nums, int left, int right) {
-        //应该随机从数组中抽出一个数作为基准，否则有可能出现某些用例通过的时间很久
+    }
+    public int partition(int[] nums, int left , int right){
         int pivot = nums[left];
-        int j = left;
-        for(int i  = left + 1;i <= right; i++){
-            //小于pivot的都被交换到前面，由于不小于的都跳过了，j的作用就是为了记录当前比pivot小的最后一个位置
-            if(nums[i]<pivot){
-                j++;
-                swap(nums,j,i);
+        int lt = left;
+        for( int i = left + 1 ; i <= right ; i++){
+            if(nums[i] < pivot){
+                lt++;
+                swap(nums, i , lt);
             }
         }
-        // 在之前遍历的过程中，满足 [left + 1, j] < pivot，并且 (j, i] >= pivot
-        // 交换以后 [left, j - 1] < pivot, nums[j] = pivot, [j + 1, right] >= pivot
-        swap(nums,j,left);
-        return j;
-    }
-    private void swap(int[] nums,int index1 ,int index2){
-        int temp = nums[index1];
-        nums[index1] = nums[index2];
-        nums[index2] = temp;
+        swap(nums, left, lt);
+        return lt;
     }
 
-      }
-
+    public void swap(int[] nums, int i, int j){
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+    public int partition2(int[] nums, int left ,int right){
+        if(right > left ){
+            int randomIndex = left + 1 + random.nextInt(right - left);
+            swap(nums, left ,randomIndex);
+        }
+        int pivot = nums[left];
+        int lt = left + 1;
+        int gt = right;
+        while(true){
+            while(lt <= gt && nums[lt]< pivot){
+                lt++;
+            }
+            while(lt <= gt && nums[gt]> pivot){
+                gt--;
+            }
+            if(lt > gt){
+                break;
+            }
+            swap(nums,lt ,gt);
+            lt++;
+            gt--;
+        }
+        swap(nums,left,gt);
+        return gt;
+    }
+        //优先队列，大顶堆
+        // PriorityQueue<Integer> queue = new PriorityQueue<>((o1,o2)->(o2-o1));
+        // for(int i = 0 ; i < nums.length; i++){
+        //     queue.add(nums[i]);
+        // }
+        // int i = 0; 
+        // while(i < k-1){
+        //     queue.poll();
+        //     i++;
+        // }
+        // return queue.peek();
+    // }
+}
